@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pesca Osona</string>
+    <string name="societat">Societats de la comarca</string>
+    <string name="societats">Societats</string>
+    <string name="btnAprenPescar">Aprèn a pescar</string>
+    <string name="action_settings">Settings</string>
+    <string name="novaSocietat">Nova Societat</string>
+    <string name="especies">Espècies del riu ter</string>
+    <string name="especiesLlista">Espècies</string>
+    <string name="tvPoblacio">Població:</string>
+    <string name="tvNumSocis">Número de socis:</string>
+    <string name="tvPresident">President:</string>
+    <string name="tvDireccio">Adreça:</string>
+    <string name="tvMenuPrincipal">Menú Principal</string>
+    <string name="search">Buscador</string>
+    <string name="afegir">Afegir</string>
+    <string name="share">Compartir</string>
+    <string name="tvCientific">Nom Científic:</string>
+    <string name="tvFamilia">Família:</string>
+    <string name="tvDescripcio">Descripció</string>
+    <string name="tvNomSocietat">Nom Societat:</string>
+    <string name="btnAfegirImatge">Afegir imatge</string>
+    <string name="tvNovaSocietat">Nova Societat</string>
+    <string name="NovaEspecie">Nova Especie</string>
+    <string name="tvImatgeMenu">Imatge de la llista</string>
+    <string name="tvImatgeCapcalera">Imatge de la capçalera</string>
+    <string name="tvNomEspecie">Nom espècie</string>
+    <string name="tvNomCientific">Nom científic</string>
+    <string name="tvNomFamilia">Nom família</string>
+</resources>
