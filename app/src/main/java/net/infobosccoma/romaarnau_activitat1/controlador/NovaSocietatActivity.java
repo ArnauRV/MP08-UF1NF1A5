@@ -237,6 +237,5 @@ public class NovaSocietatActivity extends ActionBarActivity {
         intent.setType("image/*");
         intent.putExtra("return-data", true);
         startActivityForResult(intent, PICK_FROM_GALLERY);
-
     }
 }

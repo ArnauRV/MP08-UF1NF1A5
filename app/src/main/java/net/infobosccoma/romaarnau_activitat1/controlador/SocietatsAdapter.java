@@ -20,14 +20,14 @@ import net.infobosccoma.romaarnau_activitat1.model.Societats;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SocietatsAdapter extends ArrayAdapter<Societats> implements Filterable{
+public class SocietatsAdapter extends ArrayAdapter<Societats> implements Filterable {
     private List<Societats> dades;
     private Filter mFilter;
     private List<Societats> mItems;
     private Context context;
 
     public SocietatsAdapter(Context context, List<Societats> dades) {
-        super(context, R.layout.activity_content_societats,dades);
+        super(context, R.layout.activity_content_societats, dades);
         this.dades = dades;
         this.mItems = dades;
         this.context = context;
@@ -76,7 +76,7 @@ public class SocietatsAdapter extends ArrayAdapter<Societats> implements Filtera
         protected FilterResults performFiltering(CharSequence constraint) {
 
             FilterResults filterResults = new FilterResults();
-            if (constraint!=null && constraint.length()>0) {
+            if (constraint != null && constraint.length() > 0) {
                 List<Societats> tempList = new ArrayList<Societats>();
 
                 // search content in friend list
