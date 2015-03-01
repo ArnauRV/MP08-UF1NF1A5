@@ -49,15 +49,15 @@ public class SocietatsAdapter extends ArrayAdapter<Societats> implements Filtera
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);  //LayoutInflater generador de layouts
-        View element = inflater.inflate(R.layout.activity_content_societats, null); // l'inflador construeix a partir del xml en forma d'objecte
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View element = inflater.inflate(R.layout.activity_content_societats, null);
 
         ImageView imatgeCapcalera = (ImageView) element.findViewById(R.id.imgSocietat);
 
         imatgeCapcalera.setImageBitmap(Utilitats.getPhoto(mItems.get(position).getImgID()));
 
-        TextView lblTitol = (TextView) element.findViewById(R.id.tvText1); // tinc el layout, doncs busco vistes
-        lblTitol.setText(mItems.get(position).getNom()); // li assigno que el lbltitol ha de mostrar x títol
+        TextView lblTitol = (TextView) element.findViewById(R.id.tvText1);
+        lblTitol.setText(mItems.get(position).getNom());
 
         return element;
     }

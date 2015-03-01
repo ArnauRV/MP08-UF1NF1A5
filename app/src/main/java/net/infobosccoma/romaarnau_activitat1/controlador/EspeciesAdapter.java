@@ -49,14 +49,14 @@ public class EspeciesAdapter extends ArrayAdapter<Especies> implements Filterabl
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);  //LayoutInflater generador de layouts
-        View element = inflater.inflate(R.layout.activity_content_especies, null); // l'inflador construeix a partir del xml en forma d'objecte
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View element = inflater.inflate(R.layout.activity_content_especies, null);
 
         ImageView imatgeCapcalera = (ImageView) element.findViewById(R.id.imgEspecies);
         imatgeCapcalera.setImageBitmap(Utilitats.getPhoto(mItems.get(position).getImgID()));
 
-        TextView lblTitol = (TextView) element.findViewById(R.id.tvNomEspecie); // tinc el layout, doncs busco vistes
-        lblTitol.setText(mItems.get(position).getNomEspecie()); // li assigno que el lbltitol ha de mostrar x títol
+        TextView lblTitol = (TextView) element.findViewById(R.id.tvNomEspecie);
+        lblTitol.setText(mItems.get(position).getNomEspecie());
 
         return element;
     }
